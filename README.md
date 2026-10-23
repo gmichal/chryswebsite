@@ -1,6 +1,6 @@
 # Chrys Dimitriou website
 
-A complete, responsive redevelopment of [chrysdimitriou.com](https://www.chrysdimitriou.com), built with Next.js 16, React 19, TypeScript, Tailwind CSS 4, CSS Modules and MDX. It exports to ordinary static files and is configured for GitHub Pages at `www.chrysdimitriou.com`.
+A complete, responsive redevelopment of [chrysdimitriou.com](https://www.chrysdimitriou.com), built with Next.js 16, React 19, TypeScript, Tailwind CSS 4, CSS Modules and MDX. It exports to ordinary static files. The deployment workflow targets the free GitHub Pages address `https://gmichal.github.io/chryswebsite/`.
 
 ## Run locally
 
@@ -141,20 +141,28 @@ The stack is `system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-ser
 
 ## Deploy to GitHub Pages
 
-No repository was created, no changes were committed or pushed, and no DNS or live hosting settings were changed by this task. The directory may be added to a repository by its owner.
+The public repository is [gmichal/chryswebsite](https://github.com/gmichal/chryswebsite). GitHub Pages hosting is free for public repositories. No domain purchase or DNS change is needed for the `github.io` address.
 
-1. Create a GitHub repository with a `main` branch. GitHub Free supports Pages for public repositories; private-repository Pages depends on your plan. Add this project’s source, public assets, workflow and lockfile. Exclude generated folders listed in `.gitignore`.
-2. In repository **Settings → Pages → Build and deployment**, choose **GitHub Actions**.
-3. Verify ownership of the domain in your GitHub account or organisation settings. Then set the repository Pages custom domain to `www.chrysdimitriou.com` **before** changing DNS.
-4. At your DNS provider, point the `www` CNAME to your actual `USERNAME.github.io` or `ORGANISATION.github.io` hostname, without a repository path. Replace the previous website record for that hostname, preserving unrelated email/DNS records.
-5. If you also want the bare `chrysdimitriou.com` domain, point its apex A records to `185.199.108.153`, `185.199.109.153`, `185.199.110.153` and `185.199.111.153`. An appropriate ALIAS/ANAME is an alternative if your provider supports it. GitHub can redirect the apex to the configured `www` domain once both resolve correctly.
-6. Enable **Enforce HTTPS** after GitHub provisions the certificate. DNS/certificate changes can take time.
-7. Push your approved changes to `main`, or run **Validate and deploy to GitHub Pages** using Actions → Run workflow.
-8. Check that validation and deployment succeed, then verify the public domain, deep links, images, sitemap, 404 and booking link.
+1. Open [repository Settings → Pages](https://github.com/gmichal/chryswebsite/settings/pages). Under **Build and deployment → Source**, select **GitHub Actions**. Leave **Custom domain** empty.
+2. Commit the prepared changes yourself. If working on `Develop`, merge them into `main`, then push `main`. Only `main` deploys; a push to `Develop` alone does not publish the website.
+3. Open [Actions](https://github.com/gmichal/chryswebsite/actions) and wait for **Validate and deploy to GitHub Pages** to finish successfully. If the updated code is already on `main`, select that workflow, choose **Run workflow**, select `main`, and run it.
+4. Open [the website](https://gmichal.github.io/chryswebsite/) and check navigation, images and an individual article. The site is published only once the deployment job succeeds.
 
-The workflow uses Node 24, `npm ci`, ESLint, TypeScript, a production static build and Playwright before uploading `out/`. Pull requests run checks but do not deploy. Only the deployment job has `pages: write` and `id-token: write` permissions. Official `configure-pages`, `upload-pages-artifact` and `deploy-pages` actions handle deployment.
+The workflow uses Node 24, `npm ci`, ESLint, TypeScript and the existing desktop/mobile browser suite against a root-path build. It then rebuilds with `NEXT_PUBLIC_BASE_PATH=/chryswebsite` and `NEXT_PUBLIC_SITE_URL=https://gmichal.github.io/chryswebsite`, and runs dedicated project-path tests before uploading `out/`. These checks cover every sitemap page and its local assets, mobile navigation, search, documents, metadata, 404 recovery and content without JavaScript. Pull requests run checks but do not deploy. Only the deployment job has `pages: write` and `id-token: write` permissions.
 
-`public/CNAME` records the intended hostname and is included for clarity. With the custom GitHub Actions publishing source, the domain must still be set in Pages settings; GitHub does not use that file to configure it. The application uses an empty `basePath` because a custom domain serves the site at `/`. It is intentionally not configured for a `USERNAME.github.io/REPOSITORY/` subpath preview. Use the local preview before domain cutover.
+To reproduce the GitHub Pages build locally on macOS or Linux:
+
+```sh
+NEXT_PUBLIC_BASE_PATH=/chryswebsite NEXT_PUBLIC_SITE_URL=https://gmichal.github.io/chryswebsite npm run build
+npm run test:pages
+NEXT_PUBLIC_BASE_PATH=/chryswebsite npm run preview
+```
+
+The preview is at `http://127.0.0.1:4173/chryswebsite/`. Plain `npm run build` retains the root-path build used for normal local development. Build-time URL variables must be set again whenever rebuilding for Pages. Do not upload the root-path build to the project address.
+
+### Use the custom domain later
+
+To move to `www.chrysdimitriou.com`, change the deployment build to use an empty `NEXT_PUBLIC_BASE_PATH` and `NEXT_PUBLIC_SITE_URL=https://www.chrysdimitriou.com`, and replace the project-path test step with the root-path suite. Verify domain ownership in GitHub, set the Pages custom domain, then point the domain's `www` CNAME to `gmichal.github.io` and enable HTTPS once available. Keep unrelated email/DNS records intact. Domain registration costs are separate from free Pages hosting. A `CNAME` file is not required by the GitHub Actions publishing source.
 
 Official references: [GitHub custom workflows](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages), [custom-domain configuration and DNS](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site), [Next.js static export](https://nextjs.org/docs/app/guides/static-exports).
 

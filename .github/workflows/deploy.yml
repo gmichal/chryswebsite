@@ -37,6 +37,13 @@ jobs:
         run: npx playwright install --with-deps chromium webkit
       - name: Test production export
         run: npm test
+      - name: Build for the GitHub Pages project address
+        env:
+          NEXT_PUBLIC_BASE_PATH: /chryswebsite
+          NEXT_PUBLIC_SITE_URL: https://gmichal.github.io/chryswebsite
+        run: npm run build
+      - name: Test the GitHub Pages export
+        run: npm run test:pages
       - name: Preserve browser report
         if: always()
         uses: actions/upload-artifact@v4

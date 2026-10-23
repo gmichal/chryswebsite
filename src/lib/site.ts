@@ -1,7 +1,7 @@
 export const site = {
   name: "Mr Chrys Dimitriou",
   title: "Consultant Ophthalmic Surgeon",
-  url: "https://www.chrysdimitriou.com",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://www.chrysdimitriou.com",
   description:
     "Specialist cataract and glaucoma care in Colchester, Essex. Meet Mr Chrys Dimitriou, Consultant Ophthalmic Surgeon, and explore treatments, research and surgical education.",
   qualifications:
@@ -25,4 +25,5 @@ export const navigation = [
   { href: "/igleams/", label: "iGLEAMS" },
   { href: "/contact/", label: "Contact" },
 ];
-export const absoluteUrl = (path = "/") => new URL(path, site.url).href;
+export const absoluteUrl = (path = "/") =>
+  new URL(path.replace(/^\//, ""), `${site.url}/`).href;

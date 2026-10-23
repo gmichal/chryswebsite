@@ -10,6 +10,7 @@ import {
 } from "@/lib/articles";
 import { pageMetadata } from "@/lib/metadata";
 import { absoluteUrl } from "@/lib/site";
+import { withBasePath } from "@/lib/paths";
 import { MedicalNote } from "@/components/MedicalNote";
 import { ArticleCard } from "@/components/ArticleCard";
 import { JsonLd } from "@/components/JsonLd";
@@ -157,7 +158,20 @@ export default async function ArticlePage({
             )}
             <p className="article-notice">{article.editorialNote}</p>
             <div className="prose">
-              <Content />
+              <Content
+                components={{
+                  a: ({ href, ...props }) => (
+                    <a
+                      {...props}
+                      href={
+                        href?.startsWith("/") && !href.startsWith("//")
+                          ? withBasePath(href)
+                          : href
+                      }
+                    />
+                  ),
+                }}
+              />
             </div>
             <MedicalNote />
             <section

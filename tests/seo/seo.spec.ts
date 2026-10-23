@@ -55,9 +55,6 @@ test("static hosting files and homepage alias are correct", async ({
   request,
   page,
 }) => {
-  expect(await (await request.get("/CNAME")).text()).toBe(
-    "www.chrysdimitriou.com\n",
-  );
   expect(await (await request.get("/robots.txt")).text()).toContain(
     "Sitemap: https://www.chrysdimitriou.com/sitemap.xml",
   );

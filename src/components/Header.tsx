@@ -1,7 +1,7 @@
 /* Native document links close the mobile details menu on navigation, including without JavaScript. */
-/* eslint-disable @next/next/no-html-link-for-pages */
 import Link from "next/link";
 import { navigation } from "@/lib/site";
+import { withBasePath } from "@/lib/paths";
 import { Arrow } from "./Arrow";
 
 export function Header() {
@@ -35,13 +35,13 @@ export function Header() {
             Menu <span aria-hidden="true">+</span>
           </summary>
           <nav aria-label="Mobile navigation">
-            <a href="/">Home</a>
+            <a href={withBasePath("/")}>Home</a>
             {navigation.map((item) => (
-              <a key={item.href} href={item.href}>
+              <a key={item.href} href={withBasePath(item.href)}>
                 {item.label}
               </a>
             ))}
-            <a href="/contact/" className="mobile-booking">
+            <a href={withBasePath("/contact/")} className="mobile-booking">
               Book a consultation <Arrow />
             </a>
           </nav>

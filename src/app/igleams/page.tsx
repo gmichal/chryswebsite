@@ -3,6 +3,7 @@ import Link from "next/link";
 import { PageIntro } from "@/components/PageIntro";
 import { Arrow } from "@/components/Arrow";
 import { pageMetadata } from "@/lib/metadata";
+import { withBasePath } from "@/lib/paths";
 export const metadata = pageMetadata(
   "iGLEAMS & Surgical Education",
   "Explore the history of iGLEAMS, founded by Mr Chrys Dimitriou, with glaucoma microsurgery simulation, educational publications and the archived 2023 programme.",
@@ -133,7 +134,7 @@ export default function Igleams() {
             faculty and educational context of the 2023 event.
           </p>
           <a
-            href="/documents/igleams-symposium-brochure.pdf"
+            href={withBasePath("/documents/igleams-symposium-brochure.pdf")}
             className="button"
             style={{ marginTop: 27 }}
           >

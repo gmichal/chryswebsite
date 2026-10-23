@@ -25,7 +25,7 @@ Next.js 16 App Router, React 19, TypeScript, Tailwind CSS 4, global design token
 
 MDX files have JSON front matter, parsed and validated at build time, then compiled using `@mdx-js/mdx`. No remote MDX, database or runtime content service. Only trusted repository editors may author MDX. Explicit publication status and source metadata. Unknown source dates remain unknown, never inferred from relative LinkedIn timestamps. Summaries identify their editorial nature and do not impersonate the surgeon.
 
-Static export with trailing slashes, no base path for the custom domain. Build-time local WebP image optimisation and responsive variants used through a Next Image custom loader. Native system fonts managed in `src/styles/typography.css`, no third-party scripts. Sitemap, robots, canonical, social and JSON-LD metadata generated at build. Draft routes excluded from static generation, metadata, search payloads and sitemap.
+Static export with trailing slashes. The deployment build uses `/chryswebsite` as its base path for `https://gmichal.github.io/chryswebsite/`; normal local builds retain the root path. Build-time local WebP image optimisation and responsive variants use a Next Image custom loader. Native system fonts are managed in `src/styles/typography.css`, with no third-party scripts. Sitemap, robots, canonical, social and JSON-LD metadata are generated at build. Draft routes are excluded from static generation, metadata, search payloads and sitemap.
 
 ## Visual direction
 
@@ -35,4 +35,4 @@ An editorial medical practice: warm white, deep ink navy, muted teal and fine bl
 
 Dedicated test folders for navigation, articles, accessibility, responsive behaviour, contact and SEO. Playwright targets the built static export, including direct deep links and 404 behaviour. ESLint, TypeScript, production build and desktop/mobile browser checks required. Accessibility automation is supplemented by keyboard and visual checks. Lighthouse results are recorded only if measured.
 
-GitHub Actions validates and deploys `out/` with official Pages actions when the owner pushes `main`. No repository creation, commits, pushes, DNS changes or external publication are performed in this task.
+GitHub Actions validates both the root-path build and the project-path export, then deploys `out/` with official Pages actions when the owner pushes `main`. Pages must be enabled with GitHub Actions as its publishing source. The owner commits and pushes changes; the `Develop` branch does not deploy directly. See the README for publishing and custom-domain instructions.

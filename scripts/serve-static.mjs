@@ -5,6 +5,7 @@ import path from "node:path";
 import { gzipSync } from "node:zlib";
 const root = path.resolve("out");
 const port = Number(process.env.PORT || 4173);
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 const types = {
   ".html": "text/html; charset=utf-8",
   ".js": "text/javascript; charset=utf-8",
@@ -36,7 +37,16 @@ const server = createServer(async (request, response) => {
     response.end("Invalid URL");
     return;
   }
-  let target = path.resolve(root, `.${pathname}`);
+  if (basePath && pathname === basePath) {
+    response.writeHead(308, {
+      Location: `${basePath}/${new URL(request.url, "http://localhost").search}`,
+    });
+    response.end();
+    return;
+  }
+  const outsideBasePath = basePath && !pathname.startsWith(`${basePath}/`);
+  const localPath = pathname.slice(basePath.length);
+  let target = path.resolve(root, `.${localPath}`);
   if (target !== root && !target.startsWith(`${root}${path.sep}`)) {
     response.writeHead(403);
     response.end();
@@ -44,6 +54,7 @@ const server = createServer(async (request, response) => {
   }
   let status = 200;
   try {
+    if (outsideBasePath) throw new Error("Outside the site's base path");
     if ((await stat(target)).isDirectory()) {
       if (!pathname.endsWith("/")) {
         response.writeHead(308, {
@@ -65,7 +76,7 @@ const server = createServer(async (request, response) => {
     const headers = {
       "Content-Type": type,
       "X-Content-Type-Options": "nosniff",
-      "Cache-Control": pathname.startsWith("/_next/static/")
+      "Cache-Control": localPath.startsWith("/_next/static/")
         ? "public, max-age=31536000, immutable"
         : "no-cache",
     };
@@ -86,7 +97,7 @@ const server = createServer(async (request, response) => {
   }
 });
 server.listen(port, "127.0.0.1", () =>
-  console.log(`Local: http://127.0.0.1:${port}`),
+  console.log(`Local: http://127.0.0.1:${port}${basePath}/`),
 );
 for (const signal of ["SIGINT", "SIGTERM"])
   process.on(signal, () => server.close(() => process.exit(0)));

@@ -12,6 +12,7 @@
     "lint": "eslint .",
     "typecheck": "next typegen && tsc --noEmit",
     "test": "playwright test",
+    "test:pages": "playwright test --config=playwright.pages.config.ts",
     "test:report": "playwright show-report",
     "images": "node scripts/optimize-images.mjs"
   },
