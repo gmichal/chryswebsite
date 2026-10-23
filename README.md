@@ -113,7 +113,7 @@ LinkedIn entries use the same MDX system. Their optional `linkedin` object conta
 
 Set `status` to `published` only after reviewing medical accuracy, attribution, dates, rights and any commercial relationships. Set it back to `draft` to remove the article on the next build. Drafts are excluded from static article routes, listings, homepage selections, search payloads and sitemap. A public repository still exposes its source files, including drafts, so do not store confidential or patient material in them.
 
-New files and changes can be made through GitHub’s editor. Once you choose to save and push changes to `main`, the workflow validates and publishes the updated site. No React changes are needed to add an article. All entries remain readable without JavaScript; search/filter requires JavaScript.
+New files and changes can be made through GitHub’s editor. Once you choose to save and push changes to `Develop`, the workflow validates and publishes the updated site. No React changes are needed to add an article. All entries remain readable without JavaScript; search/filter requires JavaScript.
 
 MDX can execute JavaScript at build time. Only trusted repository editors should author it. Never compile user-submitted or remote MDX.
 
@@ -144,8 +144,8 @@ The stack is `system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-ser
 The public repository is [gmichal/chryswebsite](https://github.com/gmichal/chryswebsite). GitHub Pages hosting is free for public repositories. No domain purchase or DNS change is needed for the `github.io` address.
 
 1. Open [repository Settings → Pages](https://github.com/gmichal/chryswebsite/settings/pages). Under **Build and deployment → Source**, select **GitHub Actions**. Leave **Custom domain** empty.
-2. Commit the prepared changes yourself. If working on `Develop`, merge them into `main`, then push `main`. Only `main` deploys; a push to `Develop` alone does not publish the website.
-3. Open [Actions](https://github.com/gmichal/chryswebsite/actions) and wait for **Validate and deploy to GitHub Pages** to finish successfully. If the updated code is already on `main`, select that workflow, choose **Run workflow**, select `main`, and run it.
+2. Commit the prepared changes yourself and push `Develop`. Releases publish directly from `Develop`. In **Settings → Environments → github-pages**, the deployment branch rule must allow `Develop`.
+3. Open [Actions](https://github.com/gmichal/chryswebsite/actions) and wait for **Validate and deploy to GitHub Pages** to finish successfully. If the updated code is already on `Develop`, select that workflow, choose **Run workflow**, select `Develop`, and run it.
 4. Open [the website](https://gmichal.github.io/chryswebsite/) and check navigation, images and an individual article. The site is published only once the deployment job succeeds.
 
 The workflow uses Node 24, `npm ci`, ESLint, TypeScript and the existing desktop/mobile browser suite against a root-path build. It then rebuilds with `NEXT_PUBLIC_BASE_PATH=/chryswebsite` and `NEXT_PUBLIC_SITE_URL=https://gmichal.github.io/chryswebsite`, and runs dedicated project-path tests before uploading `out/`. These checks cover every sitemap page and its local assets, mobile navigation, search, documents, metadata, 404 recovery and content without JavaScript. Pull requests run checks but do not deploy. Only the deployment job has `pages: write` and `id-token: write` permissions.

@@ -2,9 +2,9 @@ name: Validate and deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [Develop]
   pull_request:
-    branches: [main]
+    branches: [Develop]
   workflow_dispatch:
 
 permissions:
@@ -52,16 +52,16 @@ jobs:
           path: playwright-report/
           retention-days: 14
       - name: Configure Pages
-        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        if: github.ref == 'refs/heads/Develop' && github.event_name != 'pull_request'
         uses: actions/configure-pages@v5
       - name: Upload static site
-        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        if: github.ref == 'refs/heads/Develop' && github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v4
         with:
           path: out
 
   deploy:
-    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    if: github.ref == 'refs/heads/Develop' && github.event_name != 'pull_request'
     needs: build
     runs-on: ubuntu-latest
     permissions:
