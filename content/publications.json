@@ -1,0 +1,90 @@
+[
+  {
+    "id": "PUB-001",
+    "title": "Two-Year Data on the Efficacy and Safety of the MINIject Supraciliary Implant in Patients with Medically Uncontrolled Primary Open-Angle Glaucoma",
+    "date": "2025-02-28",
+    "publication": "Journal of Clinical Medicine",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40095611/",
+    "chrysRole": "co-author"
+  },
+  {
+    "id": "PUB-002",
+    "title": "Real-World Data of the First UK Series of MINIject Supraciliary Glaucoma Implant with 6 Months Follow-Up",
+    "date": "2025-08-08",
+    "publication": "Ophthalmology and Therapy",
+    "url": "https://link.springer.com/article/10.1007/s40123-025-01221-z",
+    "chrysRole": "first author"
+  },
+  {
+    "id": "PUB-003",
+    "title": "Cataract surgery with and without trabecular micro-bypass stent in primary angle-closure glaucoma: a multi-centre cohort study",
+    "date": "2025-07-21",
+    "publication": "Eye",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40691726/",
+    "chrysRole": "co-author"
+  },
+  {
+    "id": "PUB-004",
+    "title": "A multi-centre interventional case series of 259 ab-interno Xen gel implants for glaucoma, with and without combined cataract surgery",
+    "date": "2018-10-24",
+    "publication": "Eye",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6460711/",
+    "chrysRole": "co-author"
+  },
+  {
+    "id": "PUB-005",
+    "title": "Phacoemulsification in Eyes With Posttrabeculectomy Choroidal Detachment",
+    "date": null,
+    "publication": "Journal of Glaucoma",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29117006/",
+    "chrysRole": "co-author"
+  },
+  {
+    "id": "PUB-006",
+    "title": "A Review on Pathogens and Necessary Diagnostic Work for Bleb-Related Infections (BRIs)",
+    "date": "2022-08-27",
+    "publication": "Diagnostics",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9497804/",
+    "chrysRole": "co-author"
+  },
+  {
+    "id": "PUB-007",
+    "title": "XEN-related hypotonous maculopathy from iatrogenic cyclodialysis cleft treated with argon laser gonio-cyclopexy",
+    "date": "2022-03-08",
+    "publication": "BMJ Case Reports",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8905896/",
+    "chrysRole": "co-author"
+  },
+  {
+    "id": "PUB-008",
+    "title": "A retrospective review of XEN implant surgery: efficacy, safety and the effect of combined cataract surgery",
+    "date": "2021-10-19",
+    "publication": "International Ophthalmology",
+    "url": "https://link.springer.com/article/10.1007/s10792-021-02069-5",
+    "chrysRole": "co-author"
+  },
+  {
+    "id": "PUB-009",
+    "title": "Policy-Driven, Multimodal Deep Learning for Predicting Visual Fields from the Optic Disc and Optical Coherence Tomography Imaging",
+    "date": null,
+    "publication": "Ophthalmology",
+    "url": "https://openaccess.city.ac.uk/id/eprint/32191/",
+    "chrysRole": "co-author"
+  },
+  {
+    "id": "PUB-010",
+    "title": "Validating and Updating the OHTS-EGPS Model Predicting 5-year Glaucoma Risk among Ocular Hypertension Patients Using Electronic Records",
+    "date": "2024-11-04",
+    "publication": "Ophthalmology Glaucoma",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39505150/",
+    "chrysRole": "GRIP study group collaborator"
+  },
+  {
+    "id": "PUB-011",
+    "title": "Validating and updating the OHTS-EGPS model predicting 5-year glaucoma risk among patients with ocular hypertension using electronic medical records: a cohort study",
+    "date": null,
+    "publication": "Health Technology Assessment",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK621430/",
+    "chrysRole": "co-author"
+  }
+]

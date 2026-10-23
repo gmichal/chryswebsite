@@ -1,0 +1,845 @@
+{
+  "researched_on": "2026-10-23",
+  "source": "https://www.chrysdimitriou.com",
+  "method": "Public HTML, robots.txt, XML sitemap and page source. Seven canonical pages exhaust both sitemap and router map. No authentication or access restriction bypass. Live homepage browser check inspected all five gallery images, both Read More buttons and the appointment embed.",
+  "source_site_revision": 139,
+  "sitemap_lastmod": "2024-11-08",
+  "pages": [
+    {
+      "path": "/",
+      "url": "https://www.chrysdimitriou.com",
+      "title": "Mr Chrys Dimitriou  | Eye Surgery | Colchester",
+      "canonical": "https://www.chrysdimitriou.com",
+      "metadata": {
+        "viewport": "width=device-width, initial-scale=1",
+        "generator": "Wix.com Website Builder",
+        "format-detection": "telephone=no",
+        "skype_toolbar": "skype_toolbar_parser_compatible",
+        "description": "Mr Chrys Dimitriou is a renowned expert in Glaucoma and Cataract eye surgery",
+        "og:title": "Mr Chrys Dimitriou  | Eye Surgery | Colchester",
+        "og:description": "Mr Chrys Dimitriou is a renowned expert in Glaucoma and Cataract eye surgery",
+        "og:image": "https://static.wixstatic.com/media/e67dc7_57990150e7d740b58bc5686a00e58977%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/e67dc7_57990150e7d740b58bc5686a00e58977%7Emv2.jpg",
+        "og:image:width": "2500",
+        "og:image:height": "1330",
+        "og:url": "https://www.chrysdimitriou.com",
+        "og:site_name": "Mr Chrys Dimitriou",
+        "og:type": "website",
+        "google-site-verification": "D5PVkGj6nL_wxDol8jGCpckOwREQDNeFpzNWSyx3xcg",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Mr Chrys Dimitriou  | Eye Surgery | Colchester",
+        "twitter:description": "Mr Chrys Dimitriou is a renowned expert in Glaucoma and Cataract eye surgery",
+        "twitter:image": "https://static.wixstatic.com/media/e67dc7_57990150e7d740b58bc5686a00e58977%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/e67dc7_57990150e7d740b58bc5686a00e58977%7Emv2.jpg"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "Mr Chrys Dimitriou"
+        },
+        {
+          "level": 5,
+          "text": "MBChB(Hons) MD FEBOphth FRCOphth FEBOS(Glau) PGCertMedEd(HealthCare)"
+        },
+        {
+          "level": 2,
+          "text": "Areas of Expertise"
+        },
+        {
+          "level": 5,
+          "text": "Cataract Surgery"
+        },
+        {
+          "level": 5,
+          "text": "Glaucoma Treatments"
+        },
+        {
+          "level": 5,
+          "text": "General Ophthalmology"
+        },
+        {
+          "level": 5,
+          "text": "East Anglia Deanery Simulation Lead in Ophthalmic Training & Education"
+        },
+        {
+          "level": 5,
+          "text": "Chair & Organizer of iGLEAMS International Glaucoma Microsurgery Symposium"
+        },
+        {
+          "level": 5,
+          "text": "Cataract Surgery"
+        },
+        {
+          "level": 5,
+          "text": "Glaucoma Surgery"
+        },
+        {
+          "level": 2,
+          "text": "Request an appointment"
+        },
+        {
+          "level": 2,
+          "text": "Book A Consultation"
+        },
+        {
+          "level": 2,
+          "text": "Contact Us"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.chrysdimitriou.com",
+          "anchor": null,
+          "label": "Mr. Chrys Dimitriou - Consultant Eye Surgeon Mr. Chrys Dimitriou - Consultant Eye Surgeon"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com",
+          "anchor": null,
+          "label": "Home"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com",
+          "anchor": "dataItem-j6w6mgyd1",
+          "label": "Services"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com/igleams",
+          "anchor": null,
+          "label": "iGLEAMS"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com/about",
+          "anchor": null,
+          "label": "About"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com",
+          "anchor": "dataItem-j6w6mgyf1",
+          "label": "Contact"
+        },
+        {
+          "url": "https://www.topdoctors.co.uk/doctor/chrysostomos-dimitriou",
+          "anchor": null,
+          "label": "Book A Consultation"
+        },
+        {
+          "url": "mailto:samantha@pa-medical.co.uk",
+          "anchor": null,
+          "label": "email:"
+        },
+        {
+          "url": "mailto:Samantha.Crockford@nhs.net",
+          "anchor": null,
+          "label": "Samantha.Crockford@"
+        },
+        {
+          "url": "mailto:Samantha.Crockford@nhs.net",
+          "anchor": null,
+          "label": "nhs.net"
+        },
+        {
+          "url": "mailto:samantha@pa-medical.co.uk",
+          "anchor": null,
+          "label": "email:"
+        },
+        {
+          "url": "mailto:Chrysostomos.Dimitriou@esneft.nhs.uk",
+          "anchor": null,
+          "label": "Chrysostomos.Dimitriou@"
+        },
+        {
+          "url": "mailto:Chrysostomos.Dimitriou@esneft.nhs.uk",
+          "anchor": null,
+          "label": "esneft.nhs.uk"
+        },
+        {
+          "url": "https://uk.linkedin.com/in/chrys-dimitriou-eye-surgeon",
+          "anchor": null,
+          "label": ""
+        },
+        {
+          "url": "https://icenicentre.org/faculty/#chrys_dimitriou",
+          "anchor": null,
+          "label": ""
+        },
+        {
+          "url": "https://www.researchgate.net/profile/Chrysostomos_Dimitriou",
+          "anchor": null,
+          "label": ""
+        }
+      ],
+      "iframes": [
+        {
+          "src": "https://www-chrysdimitriou-com.filesusr.com/html/e67dc7_3f6e3b29f706e9b1418e33ec5ae1bc77.html",
+          "title": "Embedded Content",
+          "embedded_url": "https://topdoctors.co.uk/ws/get_doctor_address_lead/47cc8fbdaeacd8c1d9fe325b11e0287e/0",
+          "snapshot": "docs/research/original/appointment-embed.html"
+        }
+      ],
+      "anchors": [
+        {
+          "id": "services"
+        },
+        {
+          "id": "contact"
+        }
+      ],
+      "raw_source": "docs/research/original/home.html",
+      "text_snapshot": "docs/research/original/home.txt",
+      "placeholder_content": false,
+      "live_checks": {
+        "gallery": "Five images inspected in live DOM; two further images absent from initial SSR were downloaded.",
+        "cataract_read_more": "Click left URL unchanged and showed no additional treatment content.",
+        "glaucoma_read_more": "Click left URL unchanged and showed no additional treatment content.",
+        "appointment_embed": "Public filesusr HTML embeds Top Doctors address lead widget. Browser displayed refused to connect. Direct booking link exists."
+      }
+    },
+    {
+      "path": "/about",
+      "url": "https://www.chrysdimitriou.com/about",
+      "title": "About | Mr Chrys Dimitriou  | Eye Surgery | Colchester",
+      "canonical": "https://www.chrysdimitriou.com/about",
+      "metadata": {
+        "viewport": "width=device-width, initial-scale=1",
+        "generator": "Wix.com Website Builder",
+        "format-detection": "telephone=no",
+        "skype_toolbar": "skype_toolbar_parser_compatible",
+        "description": "About | Mr Chrys Dimitriou | Glaucoma & Cataract Eye Surgery Expert | Colchester",
+        "og:title": "About | Mr Chrys Dimitriou  | Eye Surgery | Colchester",
+        "og:description": "About | Mr Chrys Dimitriou | Glaucoma & Cataract Eye Surgery Expert | Colchester",
+        "og:image": "https://static.wixstatic.com/media/e67dc7_57990150e7d740b58bc5686a00e58977%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/e67dc7_57990150e7d740b58bc5686a00e58977%7Emv2.jpg",
+        "og:image:width": "2500",
+        "og:image:height": "1330",
+        "og:url": "https://www.chrysdimitriou.com/about",
+        "og:site_name": "Mr Chrys Dimitriou",
+        "og:type": "website",
+        "google-site-verification": "D5PVkGj6nL_wxDol8jGCpckOwREQDNeFpzNWSyx3xcg",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "About | Mr Chrys Dimitriou  | Eye Surgery | Colchester",
+        "twitter:description": "About | Mr Chrys Dimitriou | Glaucoma & Cataract Eye Surgery Expert | Colchester",
+        "twitter:image": "https://static.wixstatic.com/media/e67dc7_57990150e7d740b58bc5686a00e58977%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/e67dc7_57990150e7d740b58bc5686a00e58977%7Emv2.jpg"
+      },
+      "headings": [
+        {
+          "level": 2,
+          "text": "About Mr. Chrys Dimitriou"
+        },
+        {
+          "level": 2,
+          "text": "​"
+        },
+        {
+          "level": 6,
+          "text": "Clinical Interests"
+        },
+        {
+          "level": 6,
+          "text": "Academic background"
+        },
+        {
+          "level": 6,
+          "text": "Professional Memberships"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.chrysdimitriou.com",
+          "anchor": null,
+          "label": "Mr. Chrys Dimitriou - Consultant Eye Surgeon Mr. Chrys Dimitriou - Consultant Eye Surgeon"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com",
+          "anchor": null,
+          "label": "Home"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com",
+          "anchor": "dataItem-j6w6mgyd1",
+          "label": "Services"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com/igleams",
+          "anchor": null,
+          "label": "iGLEAMS"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com/about",
+          "anchor": null,
+          "label": "About"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com",
+          "anchor": "dataItem-j6w6mgyf1",
+          "label": "Contact"
+        },
+        {
+          "url": "https://uk.linkedin.com/in/chrys-dimitriou-eye-surgeon",
+          "anchor": null,
+          "label": ""
+        },
+        {
+          "url": "https://icenicentre.org/faculty/#chrys_dimitriou",
+          "anchor": null,
+          "label": ""
+        },
+        {
+          "url": "https://www.researchgate.net/profile/Chrysostomos_Dimitriou",
+          "anchor": null,
+          "label": ""
+        }
+      ],
+      "iframes": [],
+      "anchors": [],
+      "raw_source": "docs/research/original/about.html",
+      "text_snapshot": "docs/research/original/about.txt",
+      "placeholder_content": false
+    },
+    {
+      "path": "/igleams",
+      "url": "https://www.chrysdimitriou.com/igleams",
+      "title": "iGLEAMS | Mr Chrys Dimitriou",
+      "canonical": "https://www.chrysdimitriou.com/igleams",
+      "metadata": {
+        "viewport": "width=device-width, initial-scale=1",
+        "generator": "Wix.com Website Builder",
+        "format-detection": "telephone=no",
+        "skype_toolbar": "skype_toolbar_parser_compatible",
+        "description": " East Anglian Glaucoma Microsurgical Symposium",
+        "og:title": "iGLEAMS | Mr Chrys Dimitriou",
+        "og:description": " East Anglian Glaucoma Microsurgical Symposium",
+        "og:image": "https://static.wixstatic.com/media/e67dc7_57990150e7d740b58bc5686a00e58977%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/e67dc7_57990150e7d740b58bc5686a00e58977%7Emv2.jpg",
+        "og:image:width": "2500",
+        "og:image:height": "1330",
+        "og:url": "https://www.chrysdimitriou.com/igleams",
+        "og:site_name": "Mr Chrys Dimitriou",
+        "og:type": "website",
+        "google-site-verification": "D5PVkGj6nL_wxDol8jGCpckOwREQDNeFpzNWSyx3xcg",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "iGLEAMS | Mr Chrys Dimitriou",
+        "twitter:description": " East Anglian Glaucoma Microsurgical Symposium",
+        "twitter:image": "https://static.wixstatic.com/media/e67dc7_57990150e7d740b58bc5686a00e58977%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/e67dc7_57990150e7d740b58bc5686a00e58977%7Emv2.jpg"
+      },
+      "headings": [
+        {
+          "level": 2,
+          "text": "ESNEFT – ICENI – Ophthalmology – iGLEAMS 2 – Fri 12th + Sat 13th May 2023"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.chrysdimitriou.com",
+          "anchor": null,
+          "label": "Mr. Chrys Dimitriou - Consultant Eye Surgeon Mr. Chrys Dimitriou - Consultant Eye Surgeon"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com",
+          "anchor": null,
+          "label": "Home"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com",
+          "anchor": "dataItem-j6w6mgyd1",
+          "label": "Services"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com/igleams",
+          "anchor": null,
+          "label": "iGLEAMS"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com/about",
+          "anchor": null,
+          "label": "About"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com",
+          "anchor": "dataItem-j6w6mgyf1",
+          "label": "Contact"
+        },
+        {
+          "url": "https://icenicentre.org/courses/ophthalmology/",
+          "anchor": null,
+          "label": "https://icenicentre.org/courses/ophthalmology/"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com/_files/ugd/e67dc7_b817237c931a4e75a1a1cdd99502e656.pdf",
+          "anchor": null,
+          "label": "Symposium Brochure Symposium Brochure"
+        },
+        {
+          "url": "https://uk.linkedin.com/in/chrys-dimitriou-eye-surgeon",
+          "anchor": null,
+          "label": ""
+        },
+        {
+          "url": "https://icenicentre.org/faculty/#chrys_dimitriou",
+          "anchor": null,
+          "label": ""
+        },
+        {
+          "url": "https://www.researchgate.net/profile/Chrysostomos_Dimitriou",
+          "anchor": null,
+          "label": ""
+        }
+      ],
+      "iframes": [],
+      "anchors": [],
+      "raw_source": "docs/research/original/igleams.html",
+      "text_snapshot": "docs/research/original/igleams.txt",
+      "placeholder_content": false
+    },
+    {
+      "path": "/cataract",
+      "url": "https://www.chrysdimitriou.com/cataract",
+      "title": "Cataract | Mr Chrys Dimitriou",
+      "canonical": "https://www.chrysdimitriou.com/cataract",
+      "metadata": {
+        "viewport": "width=device-width, initial-scale=1",
+        "generator": "Wix.com Website Builder",
+        "format-detection": "telephone=no",
+        "skype_toolbar": "skype_toolbar_parser_compatible",
+        "og:title": "Cataract | Mr Chrys Dimitriou",
+        "og:image": "https://static.wixstatic.com/media/e67dc7_57990150e7d740b58bc5686a00e58977%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/e67dc7_57990150e7d740b58bc5686a00e58977%7Emv2.jpg",
+        "og:image:width": "2500",
+        "og:image:height": "1330",
+        "og:url": "https://www.chrysdimitriou.com/cataract",
+        "og:site_name": "Mr Chrys Dimitriou",
+        "og:type": "website",
+        "google-site-verification": "D5PVkGj6nL_wxDol8jGCpckOwREQDNeFpzNWSyx3xcg",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Cataract | Mr Chrys Dimitriou",
+        "twitter:image": "https://static.wixstatic.com/media/e67dc7_57990150e7d740b58bc5686a00e58977%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/e67dc7_57990150e7d740b58bc5686a00e58977%7Emv2.jpg"
+      },
+      "headings": [
+        {
+          "level": 2,
+          "text": "What is Cataract"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.chrysdimitriou.com",
+          "anchor": null,
+          "label": "Mr. Chrys Dimitriou - Consultant Eye Surgeon Mr. Chrys Dimitriou - Consultant Eye Surgeon"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com",
+          "anchor": null,
+          "label": "Home"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com",
+          "anchor": "dataItem-j6w6mgyd1",
+          "label": "Services"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com/igleams",
+          "anchor": null,
+          "label": "iGLEAMS"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com/about",
+          "anchor": null,
+          "label": "About"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com",
+          "anchor": "dataItem-j6w6mgyf1",
+          "label": "Contact"
+        },
+        {
+          "url": "https://uk.linkedin.com/in/chrys-dimitriou-eye-surgeon",
+          "anchor": null,
+          "label": ""
+        },
+        {
+          "url": "https://icenicentre.org/faculty/#chrys_dimitriou",
+          "anchor": null,
+          "label": ""
+        },
+        {
+          "url": "https://www.researchgate.net/profile/Chrysostomos_Dimitriou",
+          "anchor": null,
+          "label": ""
+        }
+      ],
+      "iframes": [],
+      "anchors": [],
+      "raw_source": "docs/research/original/cataract.html",
+      "text_snapshot": "docs/research/original/cataract.txt",
+      "placeholder_content": true,
+      "content_disposition": "Do not preserve placeholder text. Retain URL and base useful replacement on verified Home/About service descriptions and authoritative clinical sources."
+    },
+    {
+      "path": "/glaucoma",
+      "url": "https://www.chrysdimitriou.com/glaucoma",
+      "title": "Glaucoma | Mr Chrys Dimitriou",
+      "canonical": "https://www.chrysdimitriou.com/glaucoma",
+      "metadata": {
+        "viewport": "width=device-width, initial-scale=1",
+        "generator": "Wix.com Website Builder",
+        "format-detection": "telephone=no",
+        "skype_toolbar": "skype_toolbar_parser_compatible",
+        "og:title": "Glaucoma | Mr Chrys Dimitriou",
+        "og:image": "https://static.wixstatic.com/media/e67dc7_57990150e7d740b58bc5686a00e58977%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/e67dc7_57990150e7d740b58bc5686a00e58977%7Emv2.jpg",
+        "og:image:width": "2500",
+        "og:image:height": "1330",
+        "og:url": "https://www.chrysdimitriou.com/glaucoma",
+        "og:site_name": "Mr Chrys Dimitriou",
+        "og:type": "website",
+        "google-site-verification": "D5PVkGj6nL_wxDol8jGCpckOwREQDNeFpzNWSyx3xcg",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Glaucoma | Mr Chrys Dimitriou",
+        "twitter:image": "https://static.wixstatic.com/media/e67dc7_57990150e7d740b58bc5686a00e58977%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/e67dc7_57990150e7d740b58bc5686a00e58977%7Emv2.jpg"
+      },
+      "headings": [
+        {
+          "level": 2,
+          "text": "What is Glaucoma"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.chrysdimitriou.com",
+          "anchor": null,
+          "label": "Mr. Chrys Dimitriou - Consultant Eye Surgeon Mr. Chrys Dimitriou - Consultant Eye Surgeon"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com",
+          "anchor": null,
+          "label": "Home"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com",
+          "anchor": "dataItem-j6w6mgyd1",
+          "label": "Services"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com/igleams",
+          "anchor": null,
+          "label": "iGLEAMS"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com/about",
+          "anchor": null,
+          "label": "About"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com",
+          "anchor": "dataItem-j6w6mgyf1",
+          "label": "Contact"
+        },
+        {
+          "url": "https://uk.linkedin.com/in/chrys-dimitriou-eye-surgeon",
+          "anchor": null,
+          "label": ""
+        },
+        {
+          "url": "https://icenicentre.org/faculty/#chrys_dimitriou",
+          "anchor": null,
+          "label": ""
+        },
+        {
+          "url": "https://www.researchgate.net/profile/Chrysostomos_Dimitriou",
+          "anchor": null,
+          "label": ""
+        }
+      ],
+      "iframes": [],
+      "anchors": [],
+      "raw_source": "docs/research/original/glaucoma.html",
+      "text_snapshot": "docs/research/original/glaucoma.txt",
+      "placeholder_content": true,
+      "content_disposition": "Do not preserve placeholder text. Retain URL and base useful replacement on verified Home/About service descriptions and authoritative clinical sources."
+    },
+    {
+      "path": "/migs",
+      "url": "https://www.chrysdimitriou.com/migs",
+      "title": "MIGS | Mr Chrys Dimitriou",
+      "canonical": "https://www.chrysdimitriou.com/migs",
+      "metadata": {
+        "viewport": "width=device-width, initial-scale=1",
+        "generator": "Wix.com Website Builder",
+        "format-detection": "telephone=no",
+        "skype_toolbar": "skype_toolbar_parser_compatible",
+        "og:title": "MIGS | Mr Chrys Dimitriou",
+        "og:image": "https://static.wixstatic.com/media/e67dc7_57990150e7d740b58bc5686a00e58977%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/e67dc7_57990150e7d740b58bc5686a00e58977%7Emv2.jpg",
+        "og:image:width": "2500",
+        "og:image:height": "1330",
+        "og:url": "https://www.chrysdimitriou.com/migs",
+        "og:site_name": "Mr Chrys Dimitriou",
+        "og:type": "website",
+        "google-site-verification": "D5PVkGj6nL_wxDol8jGCpckOwREQDNeFpzNWSyx3xcg",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "MIGS | Mr Chrys Dimitriou",
+        "twitter:image": "https://static.wixstatic.com/media/e67dc7_57990150e7d740b58bc5686a00e58977%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/e67dc7_57990150e7d740b58bc5686a00e58977%7Emv2.jpg"
+      },
+      "headings": [
+        {
+          "level": 2,
+          "text": "What is Glaucoma"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.chrysdimitriou.com",
+          "anchor": null,
+          "label": "Mr. Chrys Dimitriou - Consultant Eye Surgeon Mr. Chrys Dimitriou - Consultant Eye Surgeon"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com",
+          "anchor": null,
+          "label": "Home"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com",
+          "anchor": "dataItem-j6w6mgyd1",
+          "label": "Services"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com/igleams",
+          "anchor": null,
+          "label": "iGLEAMS"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com/about",
+          "anchor": null,
+          "label": "About"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com",
+          "anchor": "dataItem-j6w6mgyf1",
+          "label": "Contact"
+        },
+        {
+          "url": "https://uk.linkedin.com/in/chrys-dimitriou-eye-surgeon",
+          "anchor": null,
+          "label": ""
+        },
+        {
+          "url": "https://icenicentre.org/faculty/#chrys_dimitriou",
+          "anchor": null,
+          "label": ""
+        },
+        {
+          "url": "https://www.researchgate.net/profile/Chrysostomos_Dimitriou",
+          "anchor": null,
+          "label": ""
+        }
+      ],
+      "iframes": [],
+      "anchors": [],
+      "raw_source": "docs/research/original/migs.html",
+      "text_snapshot": "docs/research/original/migs.txt",
+      "placeholder_content": true,
+      "content_disposition": "Do not preserve placeholder text. Retain URL and base useful replacement on verified Home/About service descriptions and authoritative clinical sources."
+    },
+    {
+      "path": "/laser",
+      "url": "https://www.chrysdimitriou.com/laser",
+      "title": "Laser | Mr Chrys Dimitriou",
+      "canonical": "https://www.chrysdimitriou.com/laser",
+      "metadata": {
+        "viewport": "width=device-width, initial-scale=1",
+        "generator": "Wix.com Website Builder",
+        "format-detection": "telephone=no",
+        "skype_toolbar": "skype_toolbar_parser_compatible",
+        "og:title": "Laser | Mr Chrys Dimitriou",
+        "og:image": "https://static.wixstatic.com/media/e67dc7_57990150e7d740b58bc5686a00e58977%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/e67dc7_57990150e7d740b58bc5686a00e58977%7Emv2.jpg",
+        "og:image:width": "2500",
+        "og:image:height": "1330",
+        "og:url": "https://www.chrysdimitriou.com/laser",
+        "og:site_name": "Mr Chrys Dimitriou",
+        "og:type": "website",
+        "google-site-verification": "D5PVkGj6nL_wxDol8jGCpckOwREQDNeFpzNWSyx3xcg",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Laser | Mr Chrys Dimitriou",
+        "twitter:image": "https://static.wixstatic.com/media/e67dc7_57990150e7d740b58bc5686a00e58977%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/e67dc7_57990150e7d740b58bc5686a00e58977%7Emv2.jpg"
+      },
+      "headings": [
+        {
+          "level": 2,
+          "text": "What is Glaucoma"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.chrysdimitriou.com",
+          "anchor": null,
+          "label": "Mr. Chrys Dimitriou - Consultant Eye Surgeon Mr. Chrys Dimitriou - Consultant Eye Surgeon"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com",
+          "anchor": null,
+          "label": "Home"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com",
+          "anchor": "dataItem-j6w6mgyd1",
+          "label": "Services"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com/igleams",
+          "anchor": null,
+          "label": "iGLEAMS"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com/about",
+          "anchor": null,
+          "label": "About"
+        },
+        {
+          "url": "https://www.chrysdimitriou.com",
+          "anchor": "dataItem-j6w6mgyf1",
+          "label": "Contact"
+        },
+        {
+          "url": "https://uk.linkedin.com/in/chrys-dimitriou-eye-surgeon",
+          "anchor": null,
+          "label": ""
+        },
+        {
+          "url": "https://icenicentre.org/faculty/#chrys_dimitriou",
+          "anchor": null,
+          "label": ""
+        },
+        {
+          "url": "https://www.researchgate.net/profile/Chrysostomos_Dimitriou",
+          "anchor": null,
+          "label": ""
+        }
+      ],
+      "iframes": [],
+      "anchors": [],
+      "raw_source": "docs/research/original/laser.html",
+      "text_snapshot": "docs/research/original/laser.txt",
+      "placeholder_content": true,
+      "content_disposition": "Do not preserve placeholder text. Retain URL and base useful replacement on verified Home/About service descriptions and authoritative clinical sources."
+    }
+  ],
+  "navigation": [
+    {
+      "label": "Home",
+      "path": "/"
+    },
+    {
+      "label": "Services",
+      "path": "/#services",
+      "wix_anchor": "dataItem-j6w6mgyd1"
+    },
+    {
+      "label": "iGLEAMS",
+      "path": "/igleams"
+    },
+    {
+      "label": "About",
+      "path": "/about"
+    },
+    {
+      "label": "Contact",
+      "path": "/#contact",
+      "wix_anchor": "dataItem-j6w6mgyf1"
+    }
+  ],
+  "aliases": [
+    {
+      "path": "/home",
+      "canonical": "/",
+      "evidence": "Original public router map"
+    }
+  ],
+  "external_links": [
+    "https://icenicentre.org/courses/ophthalmology/",
+    "https://icenicentre.org/faculty/#chrys_dimitriou",
+    "https://uk.linkedin.com/in/chrys-dimitriou-eye-surgeon",
+    "https://www.researchgate.net/profile/Chrysostomos_Dimitriou",
+    "https://www.topdoctors.co.uk/doctor/chrysostomos-dimitriou"
+  ],
+  "documents": [
+    {
+      "url": "https://www.chrysdimitriou.com/_files/ugd/e67dc7_b817237c931a4e75a1a1cdd99502e656.pdf",
+      "label": "iGLEAMS 2023 symposium brochure",
+      "source_page": "/igleams",
+      "local_path": "public/documents/igleams-symposium-brochure.pdf",
+      "status": "downloaded",
+      "bytes": 3461364,
+      "event_dates": [
+        "2023-05-12",
+        "2023-05-13"
+      ],
+      "pages": 12,
+      "note": "Archived programme for the 2nd East Anglian Glaucoma Microsurgery Symposium. Includes sponsor advertising and an expired 2023 fellowship vacancy. Do not imply its advertised devices, claims, jobs, fees or contacts are current.",
+      "text_snapshot": "docs/research/original/igleams-symposium-brochure.txt",
+      "verification": "All 12 pages text-extracted; cover rendered and visually inspected."
+    }
+  ],
+  "contact": {
+    "telephone_display": "+44(0)1206258770",
+    "telephone_uri": "tel:+441206258770",
+    "emails_displayed": [
+      "Samantha.Crockford@nhs.net",
+      "Chrysostomos.Dimitriou@esneft.nhs.uk"
+    ],
+    "additional_mailto": "samantha@pa-medical.co.uk",
+    "location_displayed": "Colchester - Essex - United Kingdom",
+    "clinic_names_in_biography": [
+      "OAKS Hospital, Colchester",
+      "East Suffolk and North Essex NHS Foundation Trust (ESNEFT), Private Patients"
+    ],
+    "address_limit": "The original site contains no full clinic street address. Obtain a current authoritative clinic source before publishing an address.",
+    "appointment_link": "https://www.topdoctors.co.uk/doctor/chrysostomos-dimitriou",
+    "contact_form": "Name, Email, Message, Submit. Original Wix form; no backend connection is inherited by this redevelopment.",
+    "historical_brochure_contact": {
+      "date": "2023",
+      "purpose": "ICENI education centre, not a private patient booking address",
+      "address": "East Suffolk and North Essex NHS Foundation Trust, Turner Road, Colchester, Essex CO4 5JL",
+      "telephone": "01206 746007",
+      "email": "iceni@esneft.nhs.uk"
+    }
+  },
+  "review_flags": [
+    {
+      "subject": "Outcome and superiority claims",
+      "source": "/ and /about",
+      "detail": "Exceptionally high success rate exceeding national standards, highest successful MIGS volume in East Anglia, international renown and first UK adoption claims have no supporting audit/source attached. Preserve in inventory, do not present as independently verified."
+    },
+    {
+      "subject": "Procedure counts",
+      "source": "/about",
+      "detail": "Over 12,000 cataract operations, 3,000 MIGS procedures and more than 33-40 weekly operations are undated historic site claims. Obtain current verified dates and evidence before publication."
+    },
+    {
+      "subject": "NCIA application",
+      "source": "/about",
+      "detail": "2024 National Clinical Excellence / Clinical Impact Award application was awaiting results in early 2025. This is not an awarded credential and is stale in October 2026."
+    },
+    {
+      "subject": "Event chronology",
+      "source": "/igleams",
+      "detail": "2024 event is described as upcoming in original copy. All 2022-2024 events must be presented as historical unless a current source supports newer plans."
+    },
+    {
+      "subject": "Accreditation",
+      "source": "/igleams",
+      "detail": "Royal College of Surgeons of Edinburgh and Royal College of Ophthalmologists accreditation with 10 CPD points relates to the historical event, not automatically every edition."
+    },
+    {
+      "subject": "Email mismatch",
+      "source": "/",
+      "detail": "Some visible email spans link to samantha@pa-medical.co.uk while displayed address is Samantha.Crockford@nhs.net. Prefer explicit, consistent verified contact links and request operational confirmation."
+    },
+    {
+      "subject": "Credentials and memberships",
+      "source": "/about and /",
+      "detail": "Original site reports MBChB(Hons), MD, FEBOphth, FRCOphth, FEBOS(Glau), PGCertMedEd(HealthCare) and professional memberships. Original-site provenance is recorded, but current membership or specialist register status is not independently checked here."
+    },
+    {
+      "subject": "Trial participation",
+      "source": "/about",
+      "detail": "Source lists POEM, XEN45 angle-closure multicentre, MASTERS CyPass, TRITON, ARTEMIS, ATHENA, STAR V, STAR VI and STAR LiFE. Participation does not mean these trials or all associated devices are currently recruiting or recommended."
+    },
+    {
+      "subject": "Brochure chronology and promotional content",
+      "source": "2023 programme",
+      "detail": "Brochure says iGLEAMS founded in 2022 whereas website says EAGLAMS founded 10 October 2020 and first symposium May 2022. Preserve distinction. Brochure includes sponsor claims, historical MINIject volume claim and expired recruitment advert; these are not current clinical claims."
+    }
+  ]
+}

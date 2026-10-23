@@ -1,0 +1,386 @@
+{
+  "researched_on": "2026-10-23",
+  "permission": "User explicitly authorizes download and reuse of publicly accessible original website assets.",
+  "assets": [
+    {
+      "asset_id": "e67dc7_1ae0b7b3d62643158257ae5b1a6105f9~mv2.jpg",
+      "source_url": "https://static.wixstatic.com/media/e67dc7_1ae0b7b3d62643158257ae5b1a6105f9~mv2.jpg",
+      "source_pages": [
+        "/"
+      ],
+      "original_alt_text": [
+        "chrys cataract on NGENUITY.jpg"
+      ],
+      "local_path": "public/images/source/chrys-dimitriou-ngenuity-surgery.jpg",
+      "status": "downloaded",
+      "width": 1156,
+      "height": 1593,
+      "bytes": 197806,
+      "visual_description": "Chrys Dimitriou performing eye surgery with NGENUITY visualisation in the operating theatre.",
+      "reuse_note": "Authentic source-site theatre photograph; vertical composition.",
+      "selected_for_download": true,
+      "visually_reviewed": true
+    },
+    {
+      "asset_id": "e67dc7_203ebe2482144df5b5244354abb9831e~mv2.png",
+      "source_url": "https://static.wixstatic.com/media/e67dc7_203ebe2482144df5b5244354abb9831e~mv2.png",
+      "source_pages": [
+        "/",
+        "/about",
+        "/igleams",
+        "/cataract",
+        "/glaucoma",
+        "/migs",
+        "/laser"
+      ],
+      "original_alt_text": [],
+      "local_path": "public/images/source/linkedin-icon.png",
+      "status": "downloaded",
+      "bytes": 2188,
+      "width": 128,
+      "height": 128,
+      "visual_description": "LinkedIn icon.",
+      "reuse_note": "Social link icon; replace with accessible text links if preferred.",
+      "selected_for_download": true,
+      "visually_reviewed": true
+    },
+    {
+      "asset_id": "e67dc7_282cabd883c74eb3a62b35310dc0c90f~mv2.jpg",
+      "source_url": "https://static.wixstatic.com/media/e67dc7_282cabd883c74eb3a62b35310dc0c90f~mv2.jpg",
+      "source_pages": [
+        "/"
+      ],
+      "original_alt_text": [
+        "Chrys Dimitriou"
+      ],
+      "local_path": "public/images/source/chrys-dimitriou-gallery.jpg",
+      "status": "downloaded",
+      "width": 1024,
+      "height": 680,
+      "bytes": 473467,
+      "visual_description": "Chrys Dimitriou beside a slit-lamp microscope.",
+      "reuse_note": "Authentic source-site photograph. Same composition as the About image.",
+      "selected_for_download": true,
+      "visually_reviewed": true
+    },
+    {
+      "asset_id": "e67dc7_301f9be6b0704cd9a05c615f3c1e1077~mv2.jpg",
+      "source_url": "https://static.wixstatic.com/media/e67dc7_301f9be6b0704cd9a05c615f3c1e1077~mv2.jpg",
+      "source_pages": [
+        "/"
+      ],
+      "original_alt_text": [
+        "Iris_"
+      ],
+      "local_path": "public/images/source/iris-detail.jpg",
+      "status": "downloaded",
+      "width": 1024,
+      "height": 309,
+      "bytes": 290678,
+      "visual_description": "Colourful ophthalmic visualisation graphic with a retinal scan overlay.",
+      "reuse_note": "Original alt is Iris_. Do not label as a simple photograph of an iris or infer diagnosis.",
+      "selected_for_download": true,
+      "visually_reviewed": true
+    },
+    {
+      "asset_id": "e67dc7_57990150e7d740b58bc5686a00e58977~mv2.jpg",
+      "source_url": "https://static.wixstatic.com/media/e67dc7_57990150e7d740b58bc5686a00e58977~mv2.jpg",
+      "source_pages": [
+        "/",
+        "/about",
+        "/igleams",
+        "/cataract",
+        "/glaucoma",
+        "/migs",
+        "/laser"
+      ],
+      "original_alt_text": [],
+      "local_path": "public/images/source/original-social-image.jpg",
+      "status": "downloaded",
+      "bytes": 107166,
+      "width": 1599,
+      "height": 899,
+      "visual_description": "Oaks Hospital branded portrait of Mr Chrys Dimitriou, Consultant Ophthalmic Surgeon.",
+      "reuse_note": "Contains embedded white title text, hospital logo and dark banner. Preserve provenance; prefer cleaner portrait for hero.",
+      "selected_for_download": true,
+      "visually_reviewed": true
+    },
+    {
+      "asset_id": "e67dc7_6993ec44bf904e8eb3addb98d1d82a29~mv2.png",
+      "source_url": "https://static.wixstatic.com/media/e67dc7_6993ec44bf904e8eb3addb98d1d82a29~mv2.png",
+      "source_pages": [
+        "/",
+        "/about",
+        "/igleams",
+        "/cataract",
+        "/glaucoma",
+        "/migs",
+        "/laser"
+      ],
+      "original_alt_text": [],
+      "local_path": "public/images/source/researchgate-icon.png",
+      "status": "downloaded",
+      "bytes": 21696,
+      "width": 400,
+      "height": 400,
+      "visual_description": "ResearchGate icon.",
+      "reuse_note": "Social link icon; replace with accessible text links if preferred.",
+      "selected_for_download": true,
+      "visually_reviewed": true
+    },
+    {
+      "asset_id": "e67dc7_9da3076817c14f899ea3408050927b0d~mv2.jpg",
+      "source_url": "https://static.wixstatic.com/media/e67dc7_9da3076817c14f899ea3408050927b0d~mv2.jpg",
+      "source_pages": [
+        "/"
+      ],
+      "original_alt_text": [
+        "Segmentation_Analysis_"
+      ],
+      "local_path": "public/images/source/eye-segmentation-analysis.jpg",
+      "status": "downloaded",
+      "width": 2209,
+      "height": 1756,
+      "bytes": 632049,
+      "visual_description": "Ophthalmic imaging maps and visual-field plots.",
+      "reuse_note": "Do not draw diagnostic or treatment conclusions from the image. No identifying patient text visible in reviewed image.",
+      "selected_for_download": true,
+      "visually_reviewed": true
+    },
+    {
+      "asset_id": "e67dc7_a419bd31a35b4deb83991c312a93cfa4~mv2.jpg",
+      "source_url": "https://static.wixstatic.com/media/e67dc7_a419bd31a35b4deb83991c312a93cfa4~mv2.jpg",
+      "source_pages": [
+        "/",
+        "/about",
+        "/igleams",
+        "/cataract",
+        "/glaucoma",
+        "/migs",
+        "/laser"
+      ],
+      "original_alt_text": [],
+      "local_path": "public/images/source/iceni-logo.jpg",
+      "status": "downloaded",
+      "bytes": 8062,
+      "width": 193,
+      "height": 108,
+      "visual_description": "ICENI Centre logo.",
+      "reuse_note": "Low resolution; use linked text rather than enlarging.",
+      "selected_for_download": true,
+      "visually_reviewed": true
+    },
+    {
+      "asset_id": "e67dc7_cf978788abfe4f36acea1c4f54670005~mv2.png",
+      "source_url": "https://static.wixstatic.com/media/e67dc7_cf978788abfe4f36acea1c4f54670005~mv2.png",
+      "source_pages": [
+        "/",
+        "/about",
+        "/igleams",
+        "/cataract",
+        "/glaucoma",
+        "/migs",
+        "/laser"
+      ],
+      "original_alt_text": [],
+      "local_path": "public/images/source/original-favicon.png",
+      "status": "downloaded",
+      "bytes": 33259,
+      "width": 128,
+      "height": 128,
+      "visual_description": "Square crop of the Oaks Hospital portrait of Chrys Dimitriou.",
+      "reuse_note": "Original website favicon, 128 x 128. Portrait icon rather than a graphical logo.",
+      "selected_for_download": true,
+      "visually_reviewed": true
+    },
+    {
+      "asset_id": "e67dc7_f67bb4e69b754024aced7a596967f00f~mv2_d_2848_4288_s_4_2.jpg",
+      "source_url": "https://static.wixstatic.com/media/e67dc7_f67bb4e69b754024aced7a596967f00f~mv2_d_2848_4288_s_4_2.jpg",
+      "source_pages": [
+        "/"
+      ],
+      "original_alt_text": [
+        "Chrys_HomePage_low.jpg"
+      ],
+      "local_path": "public/images/source/chrys-dimitriou-portrait.jpg",
+      "status": "downloaded",
+      "bytes": 450113,
+      "width": 2848,
+      "height": 4288,
+      "visual_description": "Portrait of Chrys Dimitriou in blue surgical scrubs, arms folded.",
+      "reuse_note": "Preferred hero; clean authentic high resolution portrait.",
+      "selected_for_download": true,
+      "visually_reviewed": true
+    },
+    {
+      "asset_id": "e67dc7_2a1b87009ac44734995a7ecc8bb01ba1~mv2.jpg",
+      "source_url": "https://static.wixstatic.com/media/e67dc7_2a1b87009ac44734995a7ecc8bb01ba1~mv2.jpg",
+      "source_pages": [
+        "/about"
+      ],
+      "original_alt_text": [],
+      "local_path": "public/images/source/chrys-dimitriou-about.jpg",
+      "status": "downloaded",
+      "width": 1024,
+      "height": 680,
+      "bytes": 86500,
+      "visual_description": "Chrys Dimitriou beside a slit-lamp microscope.",
+      "reuse_note": "Authentic source-site photograph; face is toward right edge, take care with crops.",
+      "selected_for_download": true,
+      "visually_reviewed": true
+    },
+    {
+      "asset_id": "e67dc7_7baddf89f7a14990a2ddd964622e7cc5~mv2.jpg",
+      "source_url": "https://static.wixstatic.com/media/e67dc7_7baddf89f7a14990a2ddd964622e7cc5~mv2.jpg",
+      "source_pages": [
+        "/igleams"
+      ],
+      "original_alt_text": [],
+      "local_path": "public/images/source/igleams-symposium.jpg",
+      "status": "downloaded",
+      "width": 1896,
+      "height": 1414,
+      "bytes": 197112,
+      "visual_description": "Faded collage of glaucoma surgery devices and anatomical illustrations.",
+      "reuse_note": "Historical iGLEAMS background; not a conference photograph.",
+      "selected_for_download": true,
+      "visually_reviewed": true
+    },
+    {
+      "asset_id": "e67dc7_fc734f0d754e441d9f1203bd5ef8e07a~mv2.jpg",
+      "source_url": "https://static.wixstatic.com/media/e67dc7_fc734f0d754e441d9f1203bd5ef8e07a~mv2.jpg",
+      "source_pages": [
+        "/cataract",
+        "/glaucoma",
+        "/migs",
+        "/laser"
+      ],
+      "original_alt_text": [],
+      "local_path": "public/images/source/eye-surgery-original.jpg",
+      "status": "downloaded",
+      "width": 736,
+      "height": 552,
+      "bytes": 98266,
+      "visual_description": "Illustration of a surgical instrument beneath a scleral flap.",
+      "reuse_note": "Historical illustration from placeholder pages. Clinical interpretation and current relevance require review.",
+      "selected_for_download": true,
+      "visually_reviewed": true
+    },
+    {
+      "asset_id": "e67dc7_0b6e6b674796401d8cd8330fae6de5e6~mv2.jpg",
+      "source_url": "https://static.wixstatic.com/media/e67dc7_0b6e6b674796401d8cd8330fae6de5e6~mv2.jpg",
+      "source_pages": [
+        "/glaucoma",
+        "/migs",
+        "/laser"
+      ],
+      "original_alt_text": [],
+      "local_path": "public/images/source/glaucoma-laser-original.jpg",
+      "status": "downloaded",
+      "width": 835,
+      "height": 300,
+      "bytes": 136856,
+      "visual_description": "Stylised eye photograph with a blue laser-like graphic.",
+      "reuse_note": "Illustrative historical graphic, not evidence of a procedure or outcome.",
+      "selected_for_download": true,
+      "visually_reviewed": true
+    },
+    {
+      "asset_id": "e67dc7_82d91e83f6514ec49ecad54332282fef~mv2.jpg",
+      "source_url": "https://static.wixstatic.com/media/e67dc7_82d91e83f6514ec49ecad54332282fef~mv2.jpg",
+      "source_pages": [
+        "/glaucoma",
+        "/migs",
+        "/laser"
+      ],
+      "original_alt_text": [],
+      "local_path": "public/images/source/glaucoma-original.jpg",
+      "status": "downloaded",
+      "width": 650,
+      "height": 450,
+      "bytes": 66547,
+      "visual_description": "Eye drops being applied to an eye.",
+      "reuse_note": "Generic photograph from original placeholder treatment pages.",
+      "selected_for_download": true,
+      "visually_reviewed": true
+    },
+    {
+      "asset_id": "e67dc7_cd894b3bc6794deeba31a6e3b86a168d~mv2.jpg",
+      "source_url": "https://static.wixstatic.com/media/e67dc7_cd894b3bc6794deeba31a6e3b86a168d~mv2.jpg",
+      "source_pages": [
+        "/glaucoma",
+        "/migs",
+        "/laser"
+      ],
+      "original_alt_text": [],
+      "local_path": "public/images/source/glaucoma-stent-original.jpg",
+      "status": "downloaded",
+      "width": 600,
+      "height": 442,
+      "bytes": 104048,
+      "visual_description": "A small implant shown on a coin for scale.",
+      "reuse_note": "Device identity/current relevance not verified. Do not use to imply current availability or recommendation.",
+      "selected_for_download": true,
+      "visually_reviewed": true
+    },
+    {
+      "asset_id": "e67dc7_7dd5d969914946bc9414e73080193da9~mv2.jpg",
+      "source_url": "https://static.wixstatic.com/media/e67dc7_7dd5d969914946bc9414e73080193da9~mv2.jpg",
+      "source_pages": [
+        "/"
+      ],
+      "original_alt_text": [
+        "microscope"
+      ],
+      "local_path": "public/images/source/microscope-gallery.jpg",
+      "status": "downloaded",
+      "bytes": 437851,
+      "width": 1024,
+      "height": 680,
+      "discovery": "Live public homepage gallery DOM after JavaScript initialisation, 2026-10-23",
+      "visual_description": "Chrys Dimitriou using an operating microscope during eye surgery.",
+      "reuse_note": "Preferred landscape clinical image; authentic photograph from the original live gallery.",
+      "selected_for_download": true,
+      "visually_reviewed": true
+    },
+    {
+      "asset_id": "e67dc7_306bf7ad0a1547db92a83acd091a0e34~mv2.jpg",
+      "source_url": "https://static.wixstatic.com/media/e67dc7_306bf7ad0a1547db92a83acd091a0e34~mv2.jpg",
+      "source_pages": [
+        "/"
+      ],
+      "original_alt_text": [
+        "stents_"
+      ],
+      "local_path": "public/images/source/glaucoma-stents-gallery.jpg",
+      "status": "downloaded",
+      "bytes": 324721,
+      "width": 1435,
+      "height": 1070,
+      "discovery": "Live public homepage gallery DOM after JavaScript initialisation, 2026-10-23",
+      "visual_description": "Collage of glaucoma surgery devices and anatomical illustrations.",
+      "reuse_note": "Full-colour historical collage also used on the 2023 programme. Avoid implying every device is currently offered.",
+      "selected_for_download": true,
+      "visually_reviewed": true
+    }
+  ],
+  "documents": [
+    {
+      "url": "https://www.chrysdimitriou.com/_files/ugd/e67dc7_b817237c931a4e75a1a1cdd99502e656.pdf",
+      "label": "iGLEAMS 2023 symposium brochure",
+      "source_page": "/igleams",
+      "local_path": "public/documents/igleams-symposium-brochure.pdf",
+      "status": "downloaded",
+      "bytes": 3461364,
+      "event_dates": [
+        "2023-05-12",
+        "2023-05-13"
+      ],
+      "pages": 12,
+      "note": "Archived programme for the 2nd East Anglian Glaucoma Microsurgery Symposium. Includes sponsor advertising and an expired 2023 fellowship vacancy. Do not imply its advertised devices, claims, jobs, fees or contacts are current.",
+      "text_snapshot": "docs/research/original/igleams-symposium-brochure.txt",
+      "verification": "All 12 pages text-extracted; cover rendered and visually inspected."
+    }
+  ],
+  "scope_note": "All 18 unique image assets found in seven page HTML documents and the live five-image homepage gallery, plus the one linked PDF, were downloaded. Wix platform runtime scripts, third-party fonts and generated size variants are not content assets and are not duplicated."
+}

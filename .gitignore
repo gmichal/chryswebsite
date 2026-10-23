@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Next.js build output and generated types
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# Test reports and local previews
+playwright-report/
+test-results/
+coverage/
+output/
+
+# Local environment files (keep the shareable example)
+.env*
+!.env.example
+
+# Logs and operating system metadata
+*.log
+.DS_Store
+._*
+Thumbs.db

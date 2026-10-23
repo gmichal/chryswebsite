@@ -1,0 +1,38 @@
+# Website architecture and design
+
+Prepared 23 October 2026 after reviewing the original homepage, biography, symposium page, public LinkedIn search results and corroborating NHS, Ramsay and ICENI sources. Detailed source inventories accompany this document.
+
+## Information architecture
+
+- `/`: patient introduction, authentic portrait, expertise, biography, educational activity, selected insights and consultation links.
+- `/about/`: verified professional background, training, qualifications, memberships, research and teaching.
+- `/expertise/`: overview of cataract, adult glaucoma and general ophthalmology, linking to substantive treatment pages.
+- `/cataract/`: cataract and lens surgery scope, assessment, shared decisions and source-led information.
+- `/glaucoma/`: monitoring, drops, laser, minimally invasive and conventional glaucoma surgery.
+- `/migs/` and `/laser/`: preserve original placeholder routes with sourced, focused treatment information.
+- `/home/`: preserved alternate original homepage route with canonical `/`.
+- `/articles/` and `/articles/[slug]/`: searchable and filterable MDX editorial archive; published entries only.
+- `/igleams/`: preserve original route and symposium history, education, photography and original brochure.
+- `/contact/`: verified telephone and email, existing Top Doctors booking link, hospital locations and map links.
+- `/privacy/`: actual website data behaviour and external-service boundaries.
+- `/404.html`: exported accessible missing-page recovery.
+
+Preserve all original document routes. Preserve original Wix section hashes as anchor aliases where discovered. GitHub Pages cannot execute Next.js server redirects. Avoid unnecessary URL changes; do not claim client redirects are HTTP 301s.
+
+## Implementation
+
+Next.js 16 App Router, React 19, TypeScript, Tailwind CSS 4, global design tokens and CSS Modules for page composition. Server Components for all content; a small Client Component for article search/filter. Native HTML details/summary navigation, native links, search input and category select. This is the browser equivalent of the user's platform-native control preference, consistent with the explicitly required web stack.
+
+MDX files have JSON front matter, parsed and validated at build time, then compiled using `@mdx-js/mdx`. No remote MDX, database or runtime content service. Only trusted repository editors may author MDX. Explicit publication status and source metadata. Unknown source dates remain unknown, never inferred from relative LinkedIn timestamps. Summaries identify their editorial nature and do not impersonate the surgeon.
+
+Static export with trailing slashes, no base path for the custom domain. Build-time local WebP image optimisation and responsive variants used through a Next Image custom loader. Native system fonts managed in `src/styles/typography.css`, no third-party scripts. Sitemap, robots, canonical, social and JSON-LD metadata generated at build. Draft routes excluded from static generation, metadata, search payloads and sitemap.
+
+## Visual direction
+
+An editorial medical practice: warm white, deep ink navy, muted teal and fine blue-grey rules. Native platform typography throughout, with a centrally managed scale for display titles, headings, body text and UI. A calm split hero with an authentic professional photograph, a small clinical-specialty label, generous margins and clearly differentiated consultation/expertise actions. Numbered expertise rows, distinct image-led education sections, refined article layouts and consistent readable content widths. Mobile compositions stack deliberately and retain large tap targets. Reduced-motion preference disables decorative transitions.
+
+## Quality and release
+
+Dedicated test folders for navigation, articles, accessibility, responsive behaviour, contact and SEO. Playwright targets the built static export, including direct deep links and 404 behaviour. ESLint, TypeScript, production build and desktop/mobile browser checks required. Accessibility automation is supplemented by keyboard and visual checks. Lighthouse results are recorded only if measured.
+
+GitHub Actions validates and deploys `out/` with official Pages actions when the owner pushes `main`. No repository creation, commits, pushes, DNS changes or external publication are performed in this task.
